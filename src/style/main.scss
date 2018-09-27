@@ -11,9 +11,22 @@ html {
     font-family: 'montserrat';
 }
 
+.flex-container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.items {
+    align-self: center;
+}
+
+
 body {
+
     overflow-x: hidden;
     font-weight: normal;
+    background-color: grey;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -27,17 +40,16 @@ body {
     justify-items: center;
 }
 
-.navBar {
-
-
-}
-
-.recentPosts {
-
-    
-}
-
 .searchBar {
+    position: absolute;
+    background: rgba(0,173,255,.54);
+    border: 1px, solid #2A9FD8;
+}
 
-    
+.RecentPosts {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
 }
